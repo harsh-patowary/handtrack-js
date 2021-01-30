@@ -36,6 +36,7 @@ document.onkeydown = function(e) {
     var key = e.which || e.keyCode;
     if (key === 65) {
         startAudio();
+        console.log(key)
     }
 };
 
