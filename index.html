@@ -45,7 +45,7 @@
             </div>
             <div class="card-body">
               <h5 class="card-title">Pausefalse</h5>
-              <p class="card-text">In presence of your hand the audio will play but if u remove your hand it will pause<br></p>
+              <p class="card-text">In presence of hand the audio will play but if u remove your hand it will pause<br></p>
               <button class="btn btn-outline-dark" onclick="pauseOnFalse()">Try it!</button>
             </div>
           </div>
@@ -81,7 +81,7 @@
 
   </section>
 
- 
+  <audio src="sound2.mp3" id="audio"></audio>
 
   <section>
     <div class="container">
@@ -95,9 +95,10 @@
           <h1 class="big-heading">HandTrack mkII</h1>
         </div>
         <div class="">
-          <audio src="sound3.mp3" id="audio"></audio>
-          <video id="video" height="300" width="400"></video>
+          <video id="video"></video>
           <canvas id="canvas"></canvas>
+          <video id="videoOut"></video>
+          <canvas id="canvasOut"></canvas>
         </div>
 
       </div>
